@@ -129,6 +129,6 @@ def main():
         f.write("\n".join(chat_log))
     print("💾 Chat history saved to 'chat_history.txt'")
 
-# === RUN APP ===
+
 if __name__ == "__main__":
     main()
