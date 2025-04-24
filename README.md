@@ -11,26 +11,18 @@ eg (GEMINI_API_KEY="your_api_key")
 #Example chat sessions
 
 
-You: define CRM
-Bot: CRM stands for Customer Relationship Management. It's a technology and strategy used to manage a company's interactions and relationships with customers and potential customers. A CRM system helps businesses organize, automate, and synchronize sales, marketing, customer service, and technical support. The goal is to improve customer service, increase sales, and improve customer retention.
+You: define crm
+Bot: CRM stands for Customer Relationship Management. It is a system for managing a company's interactions with current and future customers. It often involves using technology to organize, automate and synchronize sales, marketing, customer service, and technical support.
 
-You: what is the name of satellite which is used for exploring deep sapce
-Bot: There are many satellites used for exploring deep space! Could you be more specific about what kind of exploration you're interested in? For example, are you interested in satellites that:
+You: what is the capital of japan
+Bot: The capital of Japan is Tokyo.
 
-*   Take images of distant galaxies? (Like the James Webb Space Telescope)
-*   Study the composition of planets?
-*   Search for exoplanets? (Like the Kepler Space Telescope)
-*   Explore our own solar system? (Like the Voyager probes)
+You: i want to leave
+Bot: I understand you want to leave. Could you please provide a short review of our conversation and a rating between 1 and 5, with 5 being the best?
 
-The more information you give me, the better I can answer your question!
-
-You: i want to leave the chat
-
-Bot: Before you go, could you please share a short review and rate me from 1 to 5?
-Please enter your review: good
-Please give a rating (1 to 5): 4
-✅ Feedback saved to 'feedback.txt'
-💾 Chat history saved to 'chat_history.txt'
+You: {"review":"really good","rating":4}
+Bot: Thank you for the review and rating!
+Chat history saved to 'chat_history.txt'
 
 
 #two files named as chat_history.txt and feedback.txt was created after you exit or leave the chat
